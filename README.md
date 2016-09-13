@@ -16,7 +16,7 @@ cookbook_path "/root/chef_cookbooks"
 
 json_attribs "/root/.chef/runlist.json" 
 
-3. I downloaded and installed cookbooks of nginx and iptables from http://community.opscode.com/cookbooks/
+I downloaded and installed cookbooks of nginx and iptables from http://community.opscode.com/cookbooks/
 For the nginx required dependencies. For solve it I used berkshelf
 
 - yum install git
