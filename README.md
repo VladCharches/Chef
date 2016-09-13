@@ -28,7 +28,7 @@ I recieved an archive and extracted it to /root/chef_cookbooks
 
 ![3](https://github.com/VladCharches/Chef-courses/blob/Task6/Screens/3.png)
 
-4. I created [runlist.json](Chef-courses/runlist.json) in /root/.chef/runlist.json:
+4. I created [runlist.json](https://github.com/VladCharches/Chef-courses/blob/Task6/runlist.json) in /root/.chef/runlist.json:
 
 5. I run config for chef-solo with output.log
 chef-solo -c /root/.chef/solo.rb > output.log
