@@ -8,10 +8,13 @@ MTN.*NIX.11 Automated Environment Configuration Management
 1. I setuped vagrant box and installed Chef-client and ChefDK
 2. I created folders .chef, chef_cookbooks and file solo.rb
 
-$log_level :debug
-$file_cache_path "/root/.chef/"
-$cookbook_path "/root/chef_cookbooks"
-$json_attribs "/root/.chef/runlist.json"
+log_level :debug
+
+file_cache_path "/root/.chef/"
+
+cookbook_path "/root/chef_cookbooks"
+
+json_attribs "/root/.chef/runlist.json" 
 
 3. I downloaded and installed cookbooks of nginx and iptables from http://community.opscode.com/cookbooks/
 For the nginx required dependencies. For solve it I used berkshelf
