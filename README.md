@@ -44,5 +44,5 @@ and iptables
 
 Files:
 
--  [Vagrantfile](Chef-courses/Vagrantfile)  
+-  [Vagrantfile](https://github.com/VladCharches/Chef-courses/blob/Task6/Vagrantfile)  
 
