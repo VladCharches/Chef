@@ -47,7 +47,7 @@ Screenshots:
 
 
 
-Files:
+You can check my additional Files:
 
 -  [Vagrantfile](https://github.com/VladCharches/Chef-courses/blob/Task6/Vagrantfile)  
 -  [chef.json](https://github.com/VladCharches/Chef-courses/blob/Task6/chef.json) 
