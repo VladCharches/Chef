@@ -5,8 +5,9 @@ MTN.*NIX.11 Automated Environment Configuration Management
 
 # Chef Task6
 
-1. I setuped vagrant box and installed Chef-client and ChefDK
-2. I created folders .chef, chef_cookbooks and file solo.rb
+**1. I setuped vagrant box and installed Chef-client and ChefDK**
+
+**2. I created folders .chef, chef_cookbooks and file solo.rb**
 
 log_level :debug
 
@@ -16,8 +17,8 @@ cookbook_path "/root/chef_cookbooks"
 
 json_attribs "/root/.chef/runlist.json" 
 
-I downloaded and installed cookbooks of nginx and iptables from http://community.opscode.com/cookbooks/
-For the nginx required dependencies. For solve it I used berkshelf
+**3. I downloaded and installed cookbooks of nginx and iptables from http://community.opscode.com/cookbooks/
+For the nginx required dependencies. For solve it I used berkshelf**
 
 - yum install git
 - berks init
@@ -28,16 +29,19 @@ I recieved an archive and extracted it to /root/chef_cookbooks
 
 ![3](https://github.com/VladCharches/Chef-courses/blob/Task6/Screens/3.png)
 
-4. I created [runlist.json](https://github.com/VladCharches/Chef-courses/blob/Task6/runlist.json) in /root/.chef/runlist.json:
+**4. I created [runlist.json](https://github.com/VladCharches/Chef-courses/blob/Task6/runlist.json) in /root/.chef/runlist.json:**
 
-5. I run config for chef-solo with [output.log](https://github.com/VladCharches/Chef-courses/blob/Task6/output.log)
-chef-solo -c /root/.chef/solo.rb > output.log
+**5. I run config for chef-solo with [output.log](https://github.com/VladCharches/Chef-courses/blob/Task6/output.log)
+chef-solo -c /root/.chef/solo.rb > output.log**
 
-6. I chekecd NginX 
+**6. I checked NginX **
+
 Screenshots
+
 ![1](https://github.com/VladCharches/Chef-courses/blob/Task6/Screens/1.png)
 
-and iptables
+**and Iptables**
+
 ![2](https://github.com/VladCharches/Chef-courses/blob/Task6/Screens/2.png)
 
 
@@ -45,4 +49,4 @@ and iptables
 Files:
 
 -  [Vagrantfile](https://github.com/VladCharches/Chef-courses/blob/Task6/Vagrantfile)  
-
+-  [chef.json](https://github.com/VladCharches/Chef-courses/blob/Task6/chef.json) 
