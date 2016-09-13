@@ -34,13 +34,13 @@ I recieved an archive and extracted it to /root/chef_cookbooks
 **5. I run config for chef-solo with [output.log](https://github.com/VladCharches/Chef-courses/blob/Task6/output.log)
 chef-solo -c /root/.chef/solo.rb > output.log**
 
-**6. I checked NginX **
+**6. I checked NginX nad Iptables**
 
-Screenshots
-
+Screenshots:
+**NginX**
 ![1](https://github.com/VladCharches/Chef-courses/blob/Task6/Screens/1.png)
 
-**and Iptables**
+**Iptables**
 
 ![2](https://github.com/VladCharches/Chef-courses/blob/Task6/Screens/2.png)
 
