@@ -5,12 +5,14 @@ MTN.*NIX.11 Automated Environment Configuration Management
 
 # Chef Task7
 
-**I edited Vagrantfile and provision script. You can check i below**
+**I edited Vagrantfile and provision script. You can check its below**
 **2. I created [reciepe](https://github.com/VladCharches/Chef-courses/blob/Task7/jboss/recipes/default.rb) for Jboss**
 **And some additional files: [attributes](https://github.com/VladCharches/Chef-courses/blob/Task7/jboss/attributes/default.rb), 
 and 2 [templates_files](https://github.com/VladCharches/Chef-courses/tree/Task7/jboss/templates/default)**
 
 My [output_chef-solo.log](https://github.com/VladCharches/Chef-courses/blob/Task7/output_chef.log) file
+
+**To do this job I also downloaded the java cookbook and its dependencies. But in git I didn't load.**
 
 Screenshots:
 **Jboss**
