@@ -1,0 +1,8 @@
+name 'web'
+depends	'web_nginx'
+depends 'web_apache'
+maintainer 'Uladzislau_Charches'
+maintainer_email 'Uladzislau_Charches@epam.com'
+license 'GNU'
+description 'Installation & Configuration'
+version '0.5.0'

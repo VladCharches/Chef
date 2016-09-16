@@ -1,0 +1,9 @@
+{
+  "name": "web_server_type",
+  "default_attributes": {
+    "web_server_type": {
+      "nginx": "nginx_web_server",
+      "apache": "apache_web_server"
+    }
+  }
+}
