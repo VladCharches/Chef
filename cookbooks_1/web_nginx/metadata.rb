@@ -1,0 +1,7 @@
+name 'web_nginx'
+depends 'web'
+maintainer 'Uladzislau_Charches'
+maintainer_email 'Uladzislau_Charches@epam.com'
+license 'GNU'
+description 'Installs and configures NGINX web server'
+version '0.5.0'

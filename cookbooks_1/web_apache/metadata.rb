@@ -1,0 +1,7 @@
+name 'web_apache'
+depends 'web'
+maintainer 'Uladzislau_Charches'
+maintainer_email 'Uladzislau_Charches@epam.com'
+license 'GNU'
+description 'Installs and configures Apache HTTPD servers'
+version '0.5.0'
