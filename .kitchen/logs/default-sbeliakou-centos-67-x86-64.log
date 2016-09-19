@@ -1,0 +1,29 @@
+I, [2016-09-19T21:06:05.061599 #7216]  INFO -- default-sbeliakou-centos-67-x86-64: -----> Verifying <default-sbeliakou-centos-67-x86-64>...
+I, [2016-09-19T21:06:05.062525 #7216]  INFO -- default-sbeliakou-centos-67-x86-64: Preparing files for transfer
+I, [2016-09-19T21:06:05.316534 #7216]  INFO -- default-sbeliakou-centos-67-x86-64: -----> Busser installation detected (busser)
+I, [2016-09-19T21:06:05.316733 #7216]  INFO -- default-sbeliakou-centos-67-x86-64: Installing Busser plugins: busser-serverspec
+I, [2016-09-19T21:06:07.365746 #7216]  INFO -- default-sbeliakou-centos-67-x86-64: Plugin serverspec already installed
+I, [2016-09-19T21:06:07.567263 #7216]  INFO -- default-sbeliakou-centos-67-x86-64: Removing /tmp/verifier/suites/serverspec
+I, [2016-09-19T21:06:07.570595 #7216]  INFO -- default-sbeliakou-centos-67-x86-64: Transferring files to <default-sbeliakou-centos-67-x86-64>
+I, [2016-09-19T21:06:07.844194 #7216]  INFO -- default-sbeliakou-centos-67-x86-64: -----> Running serverspec test suite
+I, [2016-09-19T21:06:07.917152 #7216]  INFO -- default-sbeliakou-centos-67-x86-64: /opt/chef/embedded/bin/ruby -I/tmp/verifier/suites/serverspec -I/tmp/verifier/gems/gems/rspec-support-3.5.0/lib:/tmp/verifier/gems/gems/rspec-core-3.5.3/lib /opt/chef/embedded/bin/rspec --pattern /tmp/verifier/suites/serverspec/\*\*/\*_spec.rb --color --format documentation --default-path /tmp/verifier/suites/serverspec
+I, [2016-09-19T21:06:08.269123 #7216]  INFO -- default-sbeliakou-centos-67-x86-64: 
+I, [2016-09-19T21:06:08.269203 #7216]  INFO -- default-sbeliakou-centos-67-x86-64: ports are listened
+I, [2016-09-19T21:06:08.341598 #7216]  INFO -- default-sbeliakou-centos-67-x86-64: [32m  nginx, jenkins and tomcat ports[0m
+I, [2016-09-19T21:06:08.341694 #7216]  INFO -- default-sbeliakou-centos-67-x86-64: 
+I, [2016-09-19T21:06:08.341731 #7216]  INFO -- default-sbeliakou-centos-67-x86-64: Command "ls /var/lib/jenkins/jobs"
+I, [2016-09-19T21:06:08.341762 #7216]  INFO -- default-sbeliakou-centos-67-x86-64:   stdout
+I, [2016-09-19T21:06:08.348537 #7216]  INFO -- default-sbeliakou-centos-67-x86-64: [32m    should match /deploy/[0m
+I, [2016-09-19T21:06:08.348629 #7216]  INFO -- default-sbeliakou-centos-67-x86-64:   stdout
+I, [2016-09-19T21:06:08.350435 #7216]  INFO -- default-sbeliakou-centos-67-x86-64: [32m    should match /build/[0m
+I, [2016-09-19T21:06:08.350495 #7216]  INFO -- default-sbeliakou-centos-67-x86-64: 
+I, [2016-09-19T21:06:08.350541 #7216]  INFO -- default-sbeliakou-centos-67-x86-64: jenkins
+I, [2016-09-19T21:06:08.357519 #7216]  INFO -- default-sbeliakou-centos-67-x86-64: [32m  Everything Good[0m
+I, [2016-09-19T21:06:08.357609 #7216]  INFO -- default-sbeliakou-centos-67-x86-64: 
+I, [2016-09-19T21:06:08.357652 #7216]  INFO -- default-sbeliakou-centos-67-x86-64: Port "22"
+I, [2016-09-19T21:06:08.373923 #7216]  INFO -- default-sbeliakou-centos-67-x86-64: [32m  should be listening[0m
+I, [2016-09-19T21:06:08.374031 #7216]  INFO -- default-sbeliakou-centos-67-x86-64: 
+I, [2016-09-19T21:06:08.374061 #7216]  INFO -- default-sbeliakou-centos-67-x86-64: Finished in 0.10133 seconds (files took 0.31098 seconds to load)
+I, [2016-09-19T21:06:08.374085 #7216]  INFO -- default-sbeliakou-centos-67-x86-64: [32m5 examples, 0 failures[0m
+I, [2016-09-19T21:06:08.374115 #7216]  INFO -- default-sbeliakou-centos-67-x86-64: 
+I, [2016-09-19T21:06:08.393280 #7216]  INFO -- default-sbeliakou-centos-67-x86-64: Finished verifying <default-sbeliakou-centos-67-x86-64> (0m3.33s).
