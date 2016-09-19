@@ -1,0 +1,8 @@
+name 'exittask'
+maintainer 'Uladzislau_Charches'
+maintainer_email 'Uladzislau_Charches@epam.com'
+license 'GNU'
+description 'Installation_and_Configuration_Exit_Task'
+issues_url 'https://github.com/chef-cookbooks/something/issues'
+source_url 'https://github.com/chef-cookbooks/something'
+version '0.6.0'
