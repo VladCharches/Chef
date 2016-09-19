@@ -5,8 +5,8 @@ MTN.*NIX.11 Automated Environment Configuration Management
 
 # Chef Exit_TASK
 
-**1. I edited Vagrantfiles of 2 Vm. Run it with edited files "hosts". You can check its below**
-**2. Reconfigured ansible configs to Chefs recipes: java, nginx, tomcat, jenkins **
+**1. I edited Vagrantfile. Run it with edited file "hosts". You can check it below**
+**2. Reconfigured ansible configs to Chefs recipes: [java](https://github.com/VladCharches/Chef-courses/blob/exit_task/recipes/java.rb), [nginx](https://github.com/VladCharches/Chef-courses/blob/exit_task/recipes/nginx.rb), [tomcat](https://github.com/VladCharches/Chef-courses/blob/exit_task/recipes/tomcat.rb), [jenkins](https://github.com/VladCharches/Chef-courses/blob/exit_task/recipes/jenkins.rb)**
 
 **Knife bootstrap command:**
 
@@ -34,7 +34,7 @@ $ kitchen init
 $ kitchen test
 $ kitchen verify
 
-**5. Create tests [default_spec.rb]()**
+**5. Create tests [default_spec.rb](https://github.com/VladCharches/Chef-courses/blob/exit_task/test/integration/default/serverspec/default_spec.rb)**
 
 **Test_Results**
 
